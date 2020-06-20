@@ -1,0 +1,9 @@
+.bar {
+  width: 0.355vw;
+
+  display: inline-block;
+  background-color: blue;
+}
+.bar:hover {
+  background-color: gold;
+}
