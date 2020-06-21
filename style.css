@@ -1,9 +1,36 @@
-.bar {
-  width: 0.355vw;
+body {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bar-chart {
+  background-color: #333;
+}
 
-  display: inline-block;
-  background-color: blue;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+#title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+}
+.bar {
+  fill: blue;
 }
 .bar:hover {
-  background-color: gold;
+  fill: aquamarine;
+}
+.axisAquamarine line {
+  stroke: aquamarine;
+}
+
+.axisAquamarine path {
+  stroke: aquamarine;
+}
+
+.axisAquamarine text {
+  fill: aquamarine;
 }
