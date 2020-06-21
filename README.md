@@ -1,7 +1,7 @@
 # United-States-GDP
 A D3.js graph of the US GDP
 
-[Live site](https://jimryan.eu/United-States-GDP/)  
+[Live site](https://j1m-ryan.github.io/United-States-GDP/)  
 
 ![](images/project.gif)  
 
